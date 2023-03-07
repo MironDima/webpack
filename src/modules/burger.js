@@ -1,6 +1,7 @@
-const burger = function() {
+const burgerFunc = function() {
 	console.log('my burger');
+	console.log('hi');
 }
-burger()
+burgerFunc()
 
-module.export = burger
+export default burgerFunc
